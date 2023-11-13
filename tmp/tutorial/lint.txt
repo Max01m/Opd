@@ -1,0 +1,77 @@
+﻿Ren'Py 7.6.3.23091805 lint report, generated at: Sat Nov 11 11:53:50 2023
+
+game/tl/korean/tutorial_quickstart.rpy : this file contains orphan translations at lines 381 (id tutorial_images_672c8cb8) and 387 (id tutorial_images_2fc7baee).
+
+game/tl/spanish/tutorial_screen_displayables.rpy : this file contains orphan translations at lines 621 (id viewport_displayables_c563019f), 615 (id viewport_displayables_c047efb5), and 627 (id viewport_displayables_4bcf0ad0).
+
+game/tl/spanish/tutorial_quickstart.rpy : this file contains orphan translations at lines 381 (id tutorial_images_672c8cb8) and 387 (id tutorial_images_2fc7baee).
+
+game/tl/schinese/tutorial_quickstart.rpy : this file contains orphan translations at lines 57 (id tutorial_create_18cd1d9d), 381 (id tutorial_images_672c8cb8), and 387 (id tutorial_images_2fc7baee).
+
+game/tl/japanese/tutorial_quickstart.rpy : this file contains orphan translations at lines 381 (id tutorial_images_672c8cb8) and 387 (id tutorial_images_2fc7baee).
+
+game/tl/korean/tutorial_screen_displayables.rpy : this file contains orphan translations at lines 621 (id viewport_displayables_c563019f), 615 (id viewport_displayables_c047efb5), and 627 (id viewport_displayables_4bcf0ad0).
+
+game/tl/schinese/tutorial_screen_displayables.rpy : this file contains orphan translations at lines 621 (id viewport_displayables_c563019f), 615 (id viewport_displayables_c047efb5), and 627 (id viewport_displayables_4bcf0ad0).
+
+game/tl/russian/tutorial_screen_displayables.rpy : this file contains orphan translations at lines 622 (id viewport_displayables_c563019f), 616 (id viewport_displayables_c047efb5), and 628 (id viewport_displayables_4bcf0ad0).
+
+game/tl/japanese/tutorial_screen_displayables.rpy : this file contains orphan translations at lines 621 (id viewport_displayables_c563019f), 615 (id viewport_displayables_c047efb5), and 627 (id viewport_displayables_4bcf0ad0).
+
+game/tl/russian/tutorial_quickstart.rpy : this file contains orphan translations at lines 381 (id tutorial_images_672c8cb8), 621 (id tutorial_music_a776b6ad), and 387 (id tutorial_images_2fc7baee).
+
+
+Statistics:
+
+The game contains 824 dialogue blocks, containing 15,946 words and 91,194
+characters, for an average of 19.4 words and 111 characters per block.
+
+The french translation contains 824 dialogue blocks, containing 17,469 words
+and 109,114 characters, for an average of 21.2 words and 132 characters per
+block.
+
+The japanese translation contains 829 dialogue blocks, containing 1,197 words
+and 46,592 characters, for an average of 1.4 words and 56 characters per
+block.
+
+The korean translation contains 827 dialogue blocks, containing 10,820 words
+and 48,877 characters, for an average of 13.1 words and 59 characters per
+block.
+
+The piglatin translation contains 824 dialogue blocks, containing 15,946 words
+and 124,136 characters, for an average of 19.4 words and 151 characters per
+block.
+
+The russian translation contains 833 dialogue blocks, containing 13,201 words
+and 92,856 characters, for an average of 15.8 words and 111 characters per
+block.
+
+The schinese translation contains 828 dialogue blocks, containing 929 words
+and 32,374 characters, for an average of 1.1 words and 39 characters per
+block.
+
+The spanish translation contains 829 dialogue blocks, containing 16,720 words
+and 102,305 characters, for an average of 20.2 words and 123 characters per
+block.
+
+The ukrainian translation contains 825 dialogue blocks, containing 13,163
+words and 93,353 characters, for an average of 16.0 words and 113 characters
+per block.
+
+The game contains 11 menus, 36 images, and 104 screens.
+
+Character statistics (for default language):
+ * e has 763 blocks of dialogue.
+ * nvle has 12 blocks of dialogue.
+ * narrator has 11 blocks of dialogue.
+ * l has 5 blocks of dialogue.
+ * e7 has 4 blocks of dialogue.
+ * "Eileen", e5, and egreen have 3 blocks of dialogue each.
+ * "Lucy", e2, e4, e8, and extend have 2 blocks of dialogue each.
+ * e1, e1a, e3, e6, e9, e_shout, e_whisper, eslow, g, and l8 have 1 block of
+   dialogue each.
+
+The game contains 276 examples.
+
+Lint is not a substitute for thorough testing. Remember to update Ren'Py
+before releasing. New releases fix bugs and improve compatibility.
