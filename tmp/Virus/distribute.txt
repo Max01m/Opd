@@ -111,17 +111,26 @@ game/images/ matches ** ([u'all']).
 game/images/.DS_Store matches **/.** (None).
 game/images/bg/ matches ** ([u'all']).
 game/images/bg/.DS_Store matches **/.** (None).
-game/images/bg/browser_search_bar.jpg matches ** ([u'all']).
+game/images/bg/after_10min.png matches ** ([u'all']).
+game/images/bg/attacker.png matches ** ([u'all']).
+game/images/bg/call.png matches ** ([u'all']).
+game/images/bg/calling.png matches ** ([u'all']).
+game/images/bg/desctop.png matches ** ([u'all']).
 game/images/bg/door.png matches ** ([u'all']).
+game/images/bg/download_game.png matches ** ([u'all']).
+game/images/bg/downloading.png matches ** ([u'all']).
+game/images/bg/email.png matches ** ([u'all']).
+game/images/bg/explanation.png matches ** ([u'all']).
+game/images/bg/loading.png matches ** ([u'all']).
+game/images/bg/Rectangle 3031.png matches ** ([u'all']).
 game/images/bg/room.png matches ** ([u'all']).
+game/images/bg/search.png matches ** ([u'all']).
+game/images/bg/Site_with_ads.png matches ** ([u'all']).
+game/images/bg/social_media.png matches ** ([u'all']).
 game/images/bg/vasya_at_computer.png matches ** ([u'all']).
-game/images/bg/vasya_computer_glitching.png matches ** ([u'all']).
-game/images/bg/virus_in_computer.jpg matches ** ([u'all']).
 game/images/bg/website_with_ads.png matches ** ([u'all']).
-game/images/bg/все вместе.png matches ** ([u'all']).
-game/images/bg/мошенник.png matches ** ([u'all']).
 game/images/bg/прихожая.png matches ** ([u'all']).
-game/images/bg/соцсеть.png matches ** ([u'all']).
+game/images/bg/Сергей разводит руками.png matches ** ([u'all']).
 game/images/computer_loading.jpg matches ** ([u'all']).
 game/images/hallway_with_coat_and_shoes.png matches ** ([u'all']).
 game/images/Sergey/ matches ** ([u'all']).
