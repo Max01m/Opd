@@ -1,0 +1,31 @@
+﻿Ren'Py 7.6.3.23091805 lint report, generated at: Fri Dec 15 23:21:02 2023
+
+game/script.rpy:15 Image door uses file 'bg/open_door.png', which is not loadable.
+
+game/script.rpy:16 Image vasya_at_computer uses file 'bg/vasya_at_computer.jpg', which is not loadable.
+
+images/bg/все вместе.png contains non-ASCII characters in its filename.
+(ZIP file distributions can only reliably include ASCII filenames.)
+
+images/bg/мошенник.png contains non-ASCII characters in its filename.
+
+images/bg/прихожая.png contains non-ASCII characters in its filename.
+
+images/bg/соцсеть.png contains non-ASCII characters in its filename.
+
+
+Statistics:
+
+The game contains 17 dialogue blocks, containing 443 words and 2,982
+characters, for an average of 26.1 words and 175 characters per block.
+
+The game contains 0 menus, 9 images, and 24 screens.
+
+Character statistics (for default language):
+ * nobody has 9 blocks of dialogue.
+ * v has 7 blocks of dialogue.
+ * s has 1 block of dialogue.
+
+
+Lint is not a substitute for thorough testing. Remember to update Ren'Py
+before releasing. New releases fix bugs and improve compatibility.

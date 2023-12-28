@@ -34,6 +34,7 @@ game/gui/button/slot_idle_background.png matches ** ([u'all']).
 game/gui/frame.png matches ** ([u'all']).
 game/gui/game_menu.png matches ** ([u'all']).
 game/gui/main_menu.png matches ** ([u'all']).
+game/gui/main_menu1.png matches ** ([u'all']).
 game/gui/namebox.png matches ** ([u'all']).
 game/gui/notify.png matches ** ([u'all']).
 game/gui/nvl.png matches ** ([u'all']).
@@ -111,12 +112,16 @@ game/images/.DS_Store matches **/.** (None).
 game/images/bg/ matches ** ([u'all']).
 game/images/bg/.DS_Store matches **/.** (None).
 game/images/bg/browser_search_bar.jpg matches ** ([u'all']).
-game/images/bg/img_one.jpg matches ** ([u'all']).
-game/images/bg/open_door.png matches ** ([u'all']).
-game/images/bg/vasya_at_computer.jpg matches ** ([u'all']).
+game/images/bg/door.png matches ** ([u'all']).
+game/images/bg/room.png matches ** ([u'all']).
+game/images/bg/vasya_at_computer.png matches ** ([u'all']).
 game/images/bg/vasya_computer_glitching.png matches ** ([u'all']).
 game/images/bg/virus_in_computer.jpg matches ** ([u'all']).
 game/images/bg/website_with_ads.png matches ** ([u'all']).
+game/images/bg/все вместе.png matches ** ([u'all']).
+game/images/bg/мошенник.png matches ** ([u'all']).
+game/images/bg/прихожая.png matches ** ([u'all']).
+game/images/bg/соцсеть.png matches ** ([u'all']).
 game/images/computer_loading.jpg matches ** ([u'all']).
 game/images/hallway_with_coat_and_shoes.png matches ** ([u'all']).
 game/images/Sergey/ matches ** ([u'all']).
@@ -138,13 +143,16 @@ game/screens.rpyc matches ** ([u'all']).
 game/script.rpy matches ** ([u'all']).
 game/script.rpyc matches ** ([u'all']).
 game/tl/ matches ** ([u'all']).
+game/tl/.DS_Store matches **/.** (None).
 game/tl/None/ matches ** ([u'all']).
 game/tl/None/common.rpym matches ** ([u'all']).
 game/tl/None/common.rpymc matches ** ([u'all']).
 log.txt matches log.txt (None).
 progressive_download.txt matches progressive_download.txt ([u'web']).
+project.json matches project.json (None).
 traceback.txt matches traceback.txt (None).
 .DS_Store matches **/.* (None).
+.git/ matches **/.* (None).
 doc/ doesn't match anything.
 doc/ matches None (None).
 gui/ doesn't match anything.
@@ -851,6 +859,8 @@ log.txt doesn't match anything.
 log.txt matches None (None).
 module/ doesn't match anything.
 module/ matches None (None).
+README.md doesn't match anything.
+README.md matches None (None).
 renpy/ matches renpy/ ([u'all']).
 renpy/.DS_Store matches **/.* (None).
 renpy/__init__.py matches renpy/**.py ([u'renpy']).
