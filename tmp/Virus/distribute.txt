@@ -5,6 +5,7 @@ game/.DS_Store matches **/.** (None).
 game/audio/ matches ** ([u'all']).
 game/audio/.DS_Store matches **/.** (None).
 game/audio/background_music.mp3 matches ** ([u'all']).
+game/audio/background_music1.mp3 matches ** ([u'all']).
 game/cache/ matches ** ([u'all']).
 game/cache/bytecode-27.rpyb matches game/cache/bytecode-27.rpyb ([u'all']).
 game/cache/pyanalysis.rpyb matches ** ([u'all']).
@@ -34,7 +35,6 @@ game/gui/button/slot_idle_background.png matches ** ([u'all']).
 game/gui/frame.png matches ** ([u'all']).
 game/gui/game_menu.png matches ** ([u'all']).
 game/gui/main_menu.png matches ** ([u'all']).
-game/gui/main_menu1.png matches ** ([u'all']).
 game/gui/namebox.png matches ** ([u'all']).
 game/gui/notify.png matches ** ([u'all']).
 game/gui/nvl.png matches ** ([u'all']).
@@ -112,7 +112,9 @@ game/images/.DS_Store matches **/.** (None).
 game/images/bg/ matches ** ([u'all']).
 game/images/bg/.DS_Store matches **/.** (None).
 game/images/bg/after_10min.png matches ** ([u'all']).
+game/images/bg/antivirus.png matches ** ([u'all']).
 game/images/bg/attacker.png matches ** ([u'all']).
+game/images/bg/block.png matches ** ([u'all']).
 game/images/bg/call.png matches ** ([u'all']).
 game/images/bg/calling.png matches ** ([u'all']).
 game/images/bg/desctop.png matches ** ([u'all']).
@@ -121,16 +123,26 @@ game/images/bg/download_game.png matches ** ([u'all']).
 game/images/bg/downloading.png matches ** ([u'all']).
 game/images/bg/email.png matches ** ([u'all']).
 game/images/bg/explanation.png matches ** ([u'all']).
+game/images/bg/fake_website.png matches ** ([u'all']).
+game/images/bg/game_end.png matches ** ([u'all']).
+game/images/bg/info.png matches ** ([u'all']).
 game/images/bg/loading.png matches ** ([u'all']).
+game/images/bg/official_website.png matches ** ([u'all']).
 game/images/bg/Rectangle 3031.png matches ** ([u'all']).
+game/images/bg/reviews.png matches ** ([u'all']).
 game/images/bg/room.png matches ** ([u'all']).
+game/images/bg/scan.png matches ** ([u'all']).
 game/images/bg/search.png matches ** ([u'all']).
+game/images/bg/search_end.png matches ** ([u'all']).
 game/images/bg/Site_with_ads.png matches ** ([u'all']).
 game/images/bg/social_media.png matches ** ([u'all']).
+game/images/bg/success.png matches ** ([u'all']).
 game/images/bg/vasya_at_computer.png matches ** ([u'all']).
+game/images/bg/virus.png matches ** ([u'all']).
 game/images/bg/website_with_ads.png matches ** ([u'all']).
+game/images/bg/баннер_ курсор.png matches ** ([u'all']).
 game/images/bg/прихожая.png matches ** ([u'all']).
-game/images/bg/Сергей разводит руками.png matches ** ([u'all']).
+game/images/bg/угроза.png matches ** ([u'all']).
 game/images/computer_loading.jpg matches ** ([u'all']).
 game/images/hallway_with_coat_and_shoes.png matches ** ([u'all']).
 game/images/Sergey/ matches ** ([u'all']).
