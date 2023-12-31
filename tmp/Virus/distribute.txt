@@ -150,6 +150,7 @@ game/images/Sergey/.DS_Store matches **/.** (None).
 game/images/Sergey/s_simple.png matches ** ([u'all']).
 game/images/Vasya/ matches ** ([u'all']).
 game/images/Vasya/.DS_Store matches **/.** (None).
+game/images/Vasya/v_simple 12.png matches ** ([u'all']).
 game/images/Vasya/v_simple.png matches ** ([u'all']).
 game/images/vasya_at_desk.jpg matches ** ([u'all']).
 game/images/vasya_coming_home.jpg matches ** ([u'all']).

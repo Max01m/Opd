@@ -1,21 +1,21 @@
-Sun Dec 31 11:43:40 2023
+Sun Dec 31 22:40:45 2023
 Darwin-16.7.0-x86_64-i386-64bit
 Ren'Py 7.6.3.23091805
  
 
 Bootstrap to the start of init.init. took 0.14s
 Early init. took 0.04s
-Loader init. took 0.19s
-Loading error handling. took 0.20s
-Loading script. took 2.26s
-Loading save slot metadata. took 0.10s
+Loader init. took 0.06s
+Loading error handling. took 0.15s
+Loading script. took 3.35s
+Loading save slot metadata. took 0.08s
 Loading persistent. took 0.00s
 Set script version to: None (alternate path)
- - Init at launcher/game/installer.rpyc:6 took 0.67711 s.
-Running init code. took 1.81s
-Loading analysis data. took 0.11s
+ - Init at launcher/game/installer.rpyc:6 took 0.67803 s.
+Running init code. took 1.91s
+Loading analysis data. took 0.10s
 Analyze and compile ATL. took 0.01s
-Reloading save slot metadata. took 0.04s
+Reloading save slot metadata. took 0.08s
 Index archives took 0.00s
 Dump and make backups. took 0.00s
 Cleaning cache. took 0.00s
@@ -24,17 +24,17 @@ Initial gc. took 0.05s
 DPI scale factor: 1.000000
 Creating interface object. took 0.00s
 Cleaning stores took 0.00s
-Init translation took 0.07s
+Init translation took 0.08s
 Build styles took 0.01s
-Load screen analysis took 0.07s
+Load screen analysis took 0.11s
 Analyze screens took 0.00s
 Save screen analysis took 0.00s
 Prepare screens took 0.29s
 Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
+Save bytecode. took 0.05s
 Running _start took 0.00s
 Performance test:
-Interface start. took 0.95s
+Interface start. took 0.44s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1280, 800)
@@ -47,221 +47,90 @@ Display Info: None
 Screen sizes: virtual=(800, 600) physical=(800, 600) drawable=(800, 600)
 Maximum texture size: 4096x4096
 ----
-127.0.0.1 - - [31/Dec/2023 11:52:12] "GET /index.html HTTP/1.1" 200 -
-127.0.0.1 - - [31/Dec/2023 11:52:12] "GET /pythonhome-data.js HTTP/1.1" 200 -
-127.0.0.1 - - [31/Dec/2023 11:52:12] "GET /pyapp-data.js HTTP/1.1" 200 -
-127.0.0.1 - - [31/Dec/2023 11:52:12] "GET /index.js HTTP/1.1" 200 -
-127.0.0.1 - - [31/Dec/2023 11:52:12] "GET /index.wasm HTTP/1.1" 200 -
-127.0.0.1 - - [31/Dec/2023 11:52:14] "GET /game.zip HTTP/1.1" 200 -
-127.0.0.1 - - [31/Dec/2023 11:52:20] "GET /game/audio/background_music.mp3 HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 11:52:22] "GET /game/images/Vasya/v_simple.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 11:52:22] "GET /game/images/bg/door.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 11:52:22] "GET /game/images/bg/room.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 11:52:22] "GET /game/images/bg/vasya_at_computer.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 11:52:22] "GET /game/images/bg/loading.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 11:52:22] "GET /game/images/bg/search.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 11:52:22] "GET /game/images/bg/Site_with_ads.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 11:52:30] "GET /game/images/bg/downloading.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 11:52:30] "GET /game/images/bg/after_10min.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 11:52:32] "GET /game/images/bg/call.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 11:52:33] "GET /game/images/bg/calling.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 11:52:35] "GET /game/images/Sergey/s_simple.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 11:52:36] "GET /game/images/bg/attacker.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 11:52:36] "GET /game/images/bg/social_media.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 11:52:36] "GET /game/images/bg/email.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 11:52:36] "GET /game/images/bg/explanation.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 11:52:42] "GET /game/images/bg/info.png HTTP/1.1" 200 -
-127.0.0.1 - - [31/Dec/2023 11:52:43] "GET /game/images/bg/antivirus.png HTTP/1.1" 200 -
-127.0.0.1 - - [31/Dec/2023 11:52:43] "GET /game/images/bg/scan.png HTTP/1.1" 200 -
-127.0.0.1 - - [31/Dec/2023 11:52:43] "GET /game/images/bg/virus.png HTTP/1.1" 200 -
-127.0.0.1 - - [31/Dec/2023 11:52:50] "GET /game/images/bg/success.png HTTP/1.1" 200 -
-127.0.0.1 - - [31/Dec/2023 11:52:55] "GET /game/images/bg/search_end.png HTTP/1.1" 200 -
-127.0.0.1 - - [31/Dec/2023 11:52:55] "GET /game/images/bg/reviews.png HTTP/1.1" 200 -
-127.0.0.1 - - [31/Dec/2023 11:52:55] "GET /game/images/bg/fake_website.png HTTP/1.1" 200 -
-127.0.0.1 - - [31/Dec/2023 11:52:55] "GET /game/images/bg/game_end.png HTTP/1.1" 200 -
-Launch failed. command=['/Users/fahri/Desktop/OPD/lib/py2-mac-universal/pythonw', '/Users/fahri/Desktop/OPD/lib/py2-mac-universal/../../renpy.py', '/Users/fahri/Documents/New project/Virus', 'quit', '--json-dump', '/Users/fahri/Documents/New project/Virus/game/saves/navigation.json', '--errors-in-editor'], returncode=1
+127.0.0.1 - - [31/Dec/2023 23:05:23] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [31/Dec/2023 23:05:23] "GET /pythonhome-data.js HTTP/1.1" 200 -
+127.0.0.1 - - [31/Dec/2023 23:05:23] "GET /pyapp-data.js HTTP/1.1" 200 -
+127.0.0.1 - - [31/Dec/2023 23:05:23] "GET /index.js HTTP/1.1" 200 -
+127.0.0.1 - - [31/Dec/2023 23:05:25] "GET /index.wasm HTTP/1.1" 200 -
+127.0.0.1 - - [31/Dec/2023 23:05:26] "GET /game.zip HTTP/1.1" 200 -
+127.0.0.1 - - [31/Dec/2023 23:05:33] "GET /game/audio/background_music.mp3 HTTP/1.1" 304 -
+127.0.0.1 - - [31/Dec/2023 23:05:35] "GET /game/images/bg/door.png HTTP/1.1" 304 -
+127.0.0.1 - - [31/Dec/2023 23:05:35] "GET /game/images/Vasya/v_simple.png HTTP/1.1" 200 -
+127.0.0.1 - - [31/Dec/2023 23:05:35] "GET /game/images/bg/room.png HTTP/1.1" 304 -
+127.0.0.1 - - [31/Dec/2023 23:05:35] "GET /game/images/bg/vasya_at_computer.png HTTP/1.1" 304 -
+127.0.0.1 - - [31/Dec/2023 23:05:35] "GET /game/images/bg/loading.png HTTP/1.1" 304 -
+127.0.0.1 - - [31/Dec/2023 23:05:44] "GET /game/images/bg/search.png HTTP/1.1" 304 -
+127.0.0.1 - - [31/Dec/2023 23:05:46] "GET /game/images/bg/Site_with_ads.png HTTP/1.1" 304 -
+127.0.0.1 - - [31/Dec/2023 23:05:52] "GET /game/images/bg/download_game.png HTTP/1.1" 304 -
+127.0.0.1 - - [31/Dec/2023 23:05:52] "GET /game/images/bg/downloading.png HTTP/1.1" 304 -
+127.0.0.1 - - [31/Dec/2023 23:05:52] "GET /game/images/bg/after_10min.png HTTP/1.1" 304 -
+127.0.0.1 - - [31/Dec/2023 23:06:00] "GET /game/images/bg/call.png HTTP/1.1" 304 -
+127.0.0.1 - - [31/Dec/2023 23:06:00] "GET /game/images/bg/calling.png HTTP/1.1" 304 -
+127.0.0.1 - - [31/Dec/2023 23:06:07] "GET /game/images/Sergey/s_simple.png HTTP/1.1" 304 -
+127.0.0.1 - - [31/Dec/2023 23:06:07] "GET /game/images/bg/email.png HTTP/1.1" 304 -
+127.0.0.1 - - [31/Dec/2023 23:06:07] "GET /game/images/bg/social_media.png HTTP/1.1" 304 -
+127.0.0.1 - - [31/Dec/2023 23:06:07] "GET /game/images/bg/attacker.png HTTP/1.1" 304 -
+127.0.0.1 - - [31/Dec/2023 23:06:13] "GET /game/images/bg/explanation.png HTTP/1.1" 304 -
+127.0.0.1 - - [31/Dec/2023 23:06:17] "GET /game/images/bg/info.png HTTP/1.1" 304 -
+127.0.0.1 - - [31/Dec/2023 23:06:18] "GET /game/images/bg/antivirus.png HTTP/1.1" 304 -
+127.0.0.1 - - [31/Dec/2023 23:06:20] "GET /game/images/bg/scan.png HTTP/1.1" 304 -
+127.0.0.1 - - [31/Dec/2023 23:06:20] "GET /game/images/bg/virus.png HTTP/1.1" 304 -
+127.0.0.1 - - [31/Dec/2023 23:06:21] "GET /game/images/bg/success.png HTTP/1.1" 304 -
+127.0.0.1 - - [31/Dec/2023 23:06:26] "GET /game/images/bg/search_end.png HTTP/1.1" 304 -
+127.0.0.1 - - [31/Dec/2023 23:06:27] "GET /game/images/bg/reviews.png HTTP/1.1" 304 -
+127.0.0.1 - - [31/Dec/2023 23:06:27] "GET /game/images/bg/fake_website.png HTTP/1.1" 304 -
+127.0.0.1 - - [31/Dec/2023 23:06:28] "GET /game/images/bg/game_end.png HTTP/1.1" 304 -
+127.0.0.1 - - [31/Dec/2023 23:06:29] "GET /game/images/bg/block.png HTTP/1.1" 304 -
+127.0.0.1 - - [31/Dec/2023 23:06:29] "GET /game/images/bg/official_website.png HTTP/1.1" 304 -
+127.0.0.1 - - [31/Dec/2023 23:06:38] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [31/Dec/2023 23:06:38] "GET /pythonhome-data.js HTTP/1.1" 304 -
+127.0.0.1 - - [31/Dec/2023 23:06:38] "GET /pyapp-data.js HTTP/1.1" 304 -
+127.0.0.1 - - [31/Dec/2023 23:06:38] "GET /index.js HTTP/1.1" 304 -
+127.0.0.1 - - [31/Dec/2023 23:06:39] "GET /index.wasm HTTP/1.1" 304 -
+127.0.0.1 - - [31/Dec/2023 23:06:40] "GET /game.zip HTTP/1.1" 304 -
+127.0.0.1 - - [31/Dec/2023 23:06:46] "GET /game/audio/background_music.mp3 HTTP/1.1" 304 -
+127.0.0.1 - - [31/Dec/2023 23:06:47] "GET /game/images/bg/door.png HTTP/1.1" 304 -
+127.0.0.1 - - [31/Dec/2023 23:06:47] "GET /game/images/Vasya/v_simple.png HTTP/1.1" 304 -
+127.0.0.1 - - [31/Dec/2023 23:06:47] "GET /game/images/bg/room.png HTTP/1.1" 304 -
+127.0.0.1 - - [31/Dec/2023 23:06:47] "GET /game/images/bg/vasya_at_computer.png HTTP/1.1" 304 -
+127.0.0.1 - - [31/Dec/2023 23:06:47] "GET /game/images/bg/loading.png HTTP/1.1" 304 -
+127.0.0.1 - - [31/Dec/2023 23:06:54] "GET /game/images/bg/search.png HTTP/1.1" 304 -
+127.0.0.1 - - [31/Dec/2023 23:07:01] "GET /game/images/bg/Site_with_ads.png HTTP/1.1" 304 -
+127.0.0.1 - - [31/Dec/2023 23:07:03] "GET /game/images/bg/download_game.png HTTP/1.1" 304 -
+127.0.0.1 - - [31/Dec/2023 23:07:03] "GET /game/images/bg/downloading.png HTTP/1.1" 304 -
+127.0.0.1 - - [31/Dec/2023 23:07:06] "GET /game/images/bg/after_10min.png HTTP/1.1" 304 -
+127.0.0.1 - - [31/Dec/2023 23:07:18] "GET /game/images/bg/call.png HTTP/1.1" 304 -
+127.0.0.1 - - [31/Dec/2023 23:07:21] "GET /game/images/bg/calling.png HTTP/1.1" 304 -
+127.0.0.1 - - [31/Dec/2023 23:07:30] "GET /game/images/Sergey/s_simple.png HTTP/1.1" 304 -
+127.0.0.1 - - [31/Dec/2023 23:07:30] "GET /game/images/bg/email.png HTTP/1.1" 304 -
+127.0.0.1 - - [31/Dec/2023 23:07:31] "GET /game/images/bg/social_media.png HTTP/1.1" 304 -
+127.0.0.1 - - [31/Dec/2023 23:07:31] "GET /game/images/bg/attacker.png HTTP/1.1" 304 -
+127.0.0.1 - - [31/Dec/2023 23:07:34] "GET /game/images/bg/explanation.png HTTP/1.1" 304 -
+127.0.0.1 - - [31/Dec/2023 23:07:36] "GET /game/images/bg/info.png HTTP/1.1" 304 -
+127.0.0.1 - - [31/Dec/2023 23:09:29] "GET /game/images/bg/antivirus.png HTTP/1.1" 304 -
 ----
-127.0.0.1 - - [31/Dec/2023 11:55:31] "GET /index.html HTTP/1.1" 200 -
-127.0.0.1 - - [31/Dec/2023 11:55:31] "GET /pythonhome-data.js HTTP/1.1" 200 -
-127.0.0.1 - - [31/Dec/2023 11:55:31] "GET /pyapp-data.js HTTP/1.1" 200 -
-127.0.0.1 - - [31/Dec/2023 11:55:31] "GET /index.js HTTP/1.1" 200 -
-127.0.0.1 - - [31/Dec/2023 11:55:31] "GET /index.wasm HTTP/1.1" 200 -
-127.0.0.1 - - [31/Dec/2023 11:55:33] "GET /game.zip HTTP/1.1" 200 -
-127.0.0.1 - - [31/Dec/2023 11:55:39] "GET /game/audio/background_music.mp3 HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 11:55:40] "GET /game/images/bg/door.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 11:55:42] "GET /game/images/Vasya/v_simple.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 11:55:42] "GET /game/images/bg/room.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 11:55:42] "GET /game/images/bg/vasya_at_computer.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 11:55:42] "GET /game/images/bg/loading.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 11:55:42] "GET /game/images/bg/search.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 11:55:42] "GET /game/images/bg/Site_with_ads.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 11:55:45] "GET /game/images/bg/downloading.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 11:55:45] "GET /game/images/bg/after_10min.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 11:55:47] "GET /game/images/bg/call.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 11:55:48] "GET /game/images/bg/calling.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 11:55:50] "GET /game/images/Sergey/s_simple.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 11:55:51] "GET /game/images/bg/email.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 11:55:51] "GET /game/images/bg/social_media.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 11:55:52] "GET /game/images/bg/attacker.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 11:55:53] "GET /game/images/bg/explanation.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 11:55:53] "GET /game/images/bg/info.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 11:55:53] "GET /game/images/bg/antivirus.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 11:55:59] "GET /game/images/bg/scan.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 11:55:59] "GET /game/images/bg/virus.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 11:55:59] "GET /game/images/bg/success.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 11:56:07] "GET /game/images/bg/search_end.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 11:56:10] "GET /game/images/bg/reviews.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 11:56:12] "GET /game/images/bg/fake_website.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 11:56:14] "GET /game/images/bg/game_end.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 11:56:17] "GET /game/images/bg/block.png HTTP/1.1" 200 -
-127.0.0.1 - - [31/Dec/2023 11:56:17] "GET /game/images/bg/official_website.png HTTP/1.1" 200 -
-----
-127.0.0.1 - - [31/Dec/2023 11:59:37] "GET /index.html HTTP/1.1" 200 -
-127.0.0.1 - - [31/Dec/2023 11:59:37] "GET /pythonhome-data.js HTTP/1.1" 200 -
-127.0.0.1 - - [31/Dec/2023 11:59:37] "GET /pyapp-data.js HTTP/1.1" 200 -
-127.0.0.1 - - [31/Dec/2023 11:59:37] "GET /index.js HTTP/1.1" 200 -
-127.0.0.1 - - [31/Dec/2023 11:59:38] "GET /index.wasm HTTP/1.1" 200 -
-127.0.0.1 - - [31/Dec/2023 11:59:39] "GET /game.zip HTTP/1.1" 200 -
-127.0.0.1 - - [31/Dec/2023 11:59:45] "GET /game/audio/background_music.mp3 HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 11:59:46] "GET /game/images/bg/door.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 11:59:46] "GET /game/images/Vasya/v_simple.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 11:59:46] "GET /game/images/bg/room.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 11:59:46] "GET /game/images/bg/vasya_at_computer.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 11:59:46] "GET /game/images/bg/loading.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 11:59:46] "GET /game/images/bg/search.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 11:59:46] "GET /game/images/bg/Site_with_ads.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 11:59:52] "GET /game/images/bg/downloading.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 11:59:52] "GET /game/images/bg/after_10min.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 11:59:54] "GET /game/images/bg/call.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 11:59:55] "GET /game/images/bg/calling.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 11:59:56] "GET /game/images/Sergey/s_simple.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 11:59:57] "GET /game/images/bg/email.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 11:59:58] "GET /game/images/bg/social_media.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 11:59:58] "GET /game/images/bg/attacker.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:00:00] "GET /game/images/bg/explanation.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:00:01] "GET /game/images/bg/info.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:00:01] "GET /game/images/bg/antivirus.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:00:01] "GET /game/images/bg/scan.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:00:07] "GET /game/images/bg/virus.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:00:08] "GET /game/images/bg/success.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:00:11] "GET /game/images/bg/search_end.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:00:11] "GET /game/images/bg/reviews.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:00:17] "GET /game/images/bg/fake_website.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:00:17] "GET /game/images/bg/game_end.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:00:17] "GET /game/images/bg/block.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:00:17] "GET /game/images/bg/official_website.png HTTP/1.1" 304 -
-Launch failed. command=['/Users/fahri/Desktop/OPD/lib/py2-mac-universal/pythonw', '/Users/fahri/Desktop/OPD/lib/py2-mac-universal/../../renpy.py', '/Users/fahri/Documents/New project/Virus', 'quit', '--json-dump', '/Users/fahri/Documents/New project/Virus/game/saves/navigation.json', '--errors-in-editor'], returncode=1
-Launch failed. command=['/Users/fahri/Desktop/OPD/lib/py2-mac-universal/pythonw', '/Users/fahri/Desktop/OPD/lib/py2-mac-universal/../../renpy.py', '/Users/fahri/Documents/New project/Virus', 'quit', '--json-dump', '/Users/fahri/Documents/New project/Virus/game/saves/navigation.json', '--errors-in-editor'], returncode=1
-----
-127.0.0.1 - - [31/Dec/2023 12:13:49] "GET /index.html HTTP/1.1" 200 -
-127.0.0.1 - - [31/Dec/2023 12:13:49] "GET /pythonhome-data.js HTTP/1.1" 200 -
-127.0.0.1 - - [31/Dec/2023 12:13:49] "GET /pyapp-data.js HTTP/1.1" 200 -
-127.0.0.1 - - [31/Dec/2023 12:13:49] "GET /index.js HTTP/1.1" 200 -
-127.0.0.1 - - [31/Dec/2023 12:13:49] "GET /index.wasm HTTP/1.1" 200 -
-127.0.0.1 - - [31/Dec/2023 12:13:51] "GET /game.zip HTTP/1.1" 200 -
-127.0.0.1 - - [31/Dec/2023 12:13:57] "GET /game/audio/background_music.mp3 HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:13:59] "GET /game/images/bg/door.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:13:59] "GET /game/images/Vasya/v_simple.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:13:59] "GET /game/images/bg/room.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:13:59] "GET /game/images/bg/vasya_at_computer.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:13:59] "GET /game/images/bg/loading.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:13:59] "GET /game/images/bg/search.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:13:59] "GET /game/images/bg/Site_with_ads.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:14:09] "GET /game/images/bg/download_game.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:14:09] "GET /game/images/bg/downloading.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:14:09] "GET /game/images/bg/after_10min.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:14:15] "GET /game/images/bg/call.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:14:16] "GET /game/images/bg/calling.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:14:20] "GET /game/images/Sergey/s_simple.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:14:20] "GET /game/images/bg/email.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:14:20] "GET /game/images/bg/social_media.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:14:21] "GET /game/images/bg/attacker.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:14:21] "GET /game/images/bg/explanation.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:14:28] "GET /game/images/bg/info.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:14:28] "GET /game/images/bg/antivirus.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:14:35] "GET /game/images/bg/scan.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:14:35] "GET /game/images/bg/virus.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:14:35] "GET /game/images/bg/success.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:14:47] "GET /game/images/bg/search_end.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:14:49] "GET /game/images/bg/reviews.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:14:52] "GET /game/images/bg/fake_website.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:14:53] "GET /game/images/bg/game_end.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:15:01] "GET /game/images/bg/block.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:15:01] "GET /game/images/bg/official_website.png HTTP/1.1" 304 -
-----
-127.0.0.1 - - [31/Dec/2023 12:23:47] "GET /index.html HTTP/1.1" 200 -
-127.0.0.1 - - [31/Dec/2023 12:23:47] "GET /pythonhome-data.js HTTP/1.1" 200 -
-127.0.0.1 - - [31/Dec/2023 12:23:47] "GET /pyapp-data.js HTTP/1.1" 200 -
-127.0.0.1 - - [31/Dec/2023 12:23:47] "GET /index.js HTTP/1.1" 200 -
-127.0.0.1 - - [31/Dec/2023 12:23:47] "GET /index.wasm HTTP/1.1" 200 -
-127.0.0.1 - - [31/Dec/2023 12:23:49] "GET /game.zip HTTP/1.1" 200 -
-----
-127.0.0.1 - - [31/Dec/2023 12:25:04] "GET /index.html HTTP/1.1" 200 -
-127.0.0.1 - - [31/Dec/2023 12:25:04] "GET /pythonhome-data.js HTTP/1.1" 200 -
-127.0.0.1 - - [31/Dec/2023 12:25:04] "GET /pyapp-data.js HTTP/1.1" 200 -
-127.0.0.1 - - [31/Dec/2023 12:25:04] "GET /index.js HTTP/1.1" 200 -
-127.0.0.1 - - [31/Dec/2023 12:25:04] "GET /index.wasm HTTP/1.1" 200 -
-127.0.0.1 - - [31/Dec/2023 12:25:05] "GET /game.zip HTTP/1.1" 200 -
-127.0.0.1 - - [31/Dec/2023 12:25:11] "GET /game/audio/background_music.mp3 HTTP/1.1" 200 -
-127.0.0.1 - - [31/Dec/2023 12:25:12] "GET /game/images/bg/door.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:25:12] "GET /game/images/Vasya/v_simple.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:25:12] "GET /game/images/bg/room.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:25:12] "GET /game/images/bg/vasya_at_computer.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:25:12] "GET /game/images/bg/loading.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:25:12] "GET /game/images/bg/search.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:25:12] "GET /game/images/bg/Site_with_ads.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:25:25] "GET /game/images/bg/download_game.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:25:25] "GET /game/images/bg/downloading.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:25:34] "GET /game/images/bg/after_10min.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:25:47] "GET /game/images/bg/call.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:25:51] "GET /game/images/bg/calling.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:25:55] "GET /game/images/Sergey/s_simple.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:25:59] "GET /game/images/bg/email.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:25:59] "GET /game/images/bg/social_media.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:26:00] "GET /game/images/bg/attacker.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:26:03] "GET /game/images/bg/explanation.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:26:09] "GET /game/images/bg/info.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:26:10] "GET /game/images/bg/antivirus.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:26:11] "GET /game/images/bg/scan.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:26:12] "GET /game/images/bg/virus.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:26:12] "GET /game/images/bg/success.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:26:15] "GET /game/images/bg/search_end.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:26:16] "GET /game/images/bg/reviews.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:26:16] "GET /game/images/bg/fake_website.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:26:16] "GET /game/images/bg/game_end.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:26:18] "GET /game/images/bg/block.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:26:18] "GET /game/images/bg/official_website.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:26:29] "GET /index.html HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:26:29] "GET /pythonhome-data.js HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:26:29] "GET /pyapp-data.js HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:26:29] "GET /index.js HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:26:29] "GET /index.wasm HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:26:29] "GET /game.zip HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:26:35] "GET /game/audio/background_music.mp3 HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:26:36] "GET /game/images/bg/door.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:26:37] "GET /game/images/Vasya/v_simple.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:26:38] "GET /game/images/bg/room.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:26:38] "GET /game/images/bg/loading.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:26:38] "GET /game/images/bg/search.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:26:39] "GET /game/images/bg/Site_with_ads.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:26:39] "GET /game/images/bg/downloading.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:26:40] "GET /game/images/bg/after_10min.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:26:41] "GET /game/images/bg/call.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:26:42] "GET /game/images/bg/calling.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:26:43] "GET /game/images/Sergey/s_simple.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:26:44] "GET /game/images/bg/email.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:26:44] "GET /game/images/bg/social_media.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:26:45] "GET /game/images/bg/attacker.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:26:45] "GET /game/images/bg/explanation.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:26:46] "GET /game/images/bg/info.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:26:47] "GET /game/images/bg/antivirus.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:26:49] "GET /game/images/bg/scan.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:26:50] "GET /game/images/bg/virus.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:26:51] "GET /game/images/bg/success.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:26:53] "GET /game/images/bg/search_end.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:26:58] "GET /game/images/bg/reviews.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:27:00] "GET /game/images/bg/fake_website.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:27:01] "GET /game/images/bg/game_end.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:27:04] "GET /game/images/bg/block.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:27:04] "GET /game/images/bg/official_website.png HTTP/1.1" 304 -
-127.0.0.1 - - [31/Dec/2023 12:27:31] "GET /game/images/bg/vasya_at_computer.png HTTP/1.1" 304 -
+127.0.0.1 - - [31/Dec/2023 23:12:26] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [31/Dec/2023 23:12:26] "GET /pythonhome-data.js HTTP/1.1" 200 -
+127.0.0.1 - - [31/Dec/2023 23:12:26] "GET /pyapp-data.js HTTP/1.1" 200 -
+127.0.0.1 - - [31/Dec/2023 23:12:26] "GET /index.js HTTP/1.1" 200 -
+127.0.0.1 - - [31/Dec/2023 23:12:28] "GET /index.wasm HTTP/1.1" 200 -
+127.0.0.1 - - [31/Dec/2023 23:12:29] "GET /game.zip HTTP/1.1" 200 -
+127.0.0.1 - - [31/Dec/2023 23:12:36] "GET /game/audio/background_music.mp3 HTTP/1.1" 304 -
+127.0.0.1 - - [31/Dec/2023 23:12:37] "GET /game/images/bg/door.png HTTP/1.1" 304 -
+127.0.0.1 - - [31/Dec/2023 23:12:37] "GET /game/images/Vasya/v_simple.png HTTP/1.1" 304 -
+127.0.0.1 - - [31/Dec/2023 23:12:37] "GET /game/images/bg/room.png HTTP/1.1" 304 -
+127.0.0.1 - - [31/Dec/2023 23:12:37] "GET /game/images/bg/vasya_at_computer.png HTTP/1.1" 304 -
+127.0.0.1 - - [31/Dec/2023 23:12:37] "GET /game/images/bg/loading.png HTTP/1.1" 304 -
+127.0.0.1 - - [31/Dec/2023 23:13:24] "GET /game/images/bg/search.png HTTP/1.1" 304 -
+127.0.0.1 - - [31/Dec/2023 23:13:25] "GET /game/images/bg/Site_with_ads.png HTTP/1.1" 304 -
+127.0.0.1 - - [31/Dec/2023 23:13:26] "GET /game/images/bg/downloading.png HTTP/1.1" 304 -
+127.0.0.1 - - [31/Dec/2023 23:13:28] "GET /game/images/bg/after_10min.png HTTP/1.1" 304 -
+127.0.0.1 - - [31/Dec/2023 23:13:30] "GET /game/images/bg/call.png HTTP/1.1" 304 -
+127.0.0.1 - - [31/Dec/2023 23:13:30] "GET /game/images/bg/calling.png HTTP/1.1" 304 -
+127.0.0.1 - - [31/Dec/2023 23:13:35] "GET /game/images/Sergey/s_simple.png HTTP/1.1" 304 -
+127.0.0.1 - - [31/Dec/2023 23:13:41] "GET /game/images/bg/email.png HTTP/1.1" 304 -
+127.0.0.1 - - [31/Dec/2023 23:13:42] "GET /game/images/bg/social_media.png HTTP/1.1" 304 -
+127.0.0.1 - - [31/Dec/2023 23:13:47] "GET /game/images/bg/attacker.png HTTP/1.1" 304 -
+127.0.0.1 - - [31/Dec/2023 23:14:14] "GET /game/images/bg/explanation.png HTTP/1.1" 304 -
+127.0.0.1 - - [31/Dec/2023 23:14:14] "GET /game/images/bg/info.png HTTP/1.1" 304 -
+127.0.0.1 - - [31/Dec/2023 23:14:14] "GET /game/images/bg/antivirus.png HTTP/1.1" 304 -
